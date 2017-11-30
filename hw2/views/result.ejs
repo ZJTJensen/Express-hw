@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <h3>Submitted Information</h3>
+        <p>Name: <%= body.name%></p>
+        <p>Dojo Location: <%= body.location%></p>
+        <p>Favorite Laguage: <%= body.language%></p>
+        <p>Comment: <%= body.comment%></p>
+
+        <form action="/return">
+        <input type="submit" value="Go Back">
+        </form>
+    </fieldset>
+</body>
+</html>
